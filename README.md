@@ -7,3 +7,7 @@
 ![allegro4](https://github.com/saithra/allegro-REACT/assets/149575617/17aa581d-78ac-45f4-8373-aea890ee9af8)
 ![allegro5](https://github.com/saithra/allegro-REACT/assets/149575617/dd2f3c3f-b2b8-43d3-9b19-b74d2dad745a)
 ![allegro3](https://github.com/saithra/allegro-REACT/assets/149575617/b31d21a1-67c2-4387-b336-926c147bdf6e)
+
+<img width="636" alt="allegro7" src="https://github.com/saithra/allegro-REACT/assets/149575617/50433bc9-ac98-45d2-884e-e71a9873d2d7">
+
+<img width="637" alt="allegro6" src="https://github.com/saithra/allegro-REACT/assets/149575617/9936664e-0cb1-4e54-a585-4ea4049b22ab">
