@@ -1,0 +1,639 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    list-style: none;
+}
+
+.allegro_news{
+    width: 100%;
+    height: 764px;
+    margin-top: -857px;
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: 1px solid white; */
+   align-items: center;
+
+}
+.text_div{
+    height: 640px;
+    width: 550px;
+    margin-left: 380px;
+    margin-top: 90px;
+  
+}
+.text_div h3{
+    margin-left: 180px;
+    color: orangered;
+    font-size: 20px;
+}
+.text_div p{
+    width: 500px;
+    height: 290px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 56px;
+    text-align: center;
+    line-height: 63px;
+    word-spacing: 1px;
+   letter-spacing: 1px;
+    align-items: center;
+    font-weight: 200px;
+    color: white;
+    
+}
+.text_div button{
+    margin-left: 210px;
+    margin-top: 10px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    padding: 10px;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+.allegro_news_1{
+    width: 100%;
+    height: 856px;
+    margin-top: -950px;
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: 4px solid white; */
+   align-items: center;
+}
+.allegro_news_2{
+    width: 100%;
+    height: 814px;
+    margin-top: -910px;
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: 1px solid white; */
+   align-items: center;
+}
+.text_div .button{
+    margin-top: 310px;
+} 
+.slide_nav{
+    width: 100%;
+    height:801px;
+    overflow: hidden;
+}
+.box2{
+    display: flex;
+    width: 100%;
+    height: 801px;
+}
+.box2 input{
+    display: none;
+}
+.slide_1{
+    /* width: 100%; */
+    transition: 2s;
+}
+.slide_1 .slide_2{
+    width: 100%;
+    height: 801px;
+}
+.manual{
+    position: absolute;
+    z-index: 100;
+    margin-top: 750px;
+    align-items: center;
+    width: 1000px;
+    margin-left: 135px;
+    display: flex;
+    justify-content: center;
+}
+.manuals{
+    width: 10px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manuals:not(:last-child){
+    margin-right: 40px;
+}
+.manuals:hover{
+    background-color: orangered;
+}
+#radio1:checked ~.slide_1 .slide_2{
+    margin-left: 0;
+    transition: 1s;
+}
+#radio2:checked ~.slide_1 .slide_2{
+    margin-left: -100%;
+    transition: 1s;
+}
+#radio3:checked ~.slide_1 .slide_2{
+    margin-left: -200%;
+    transition: 1s;
+}
+.prev_but button:hover{
+    background-color: whitesmoke;
+    color: orangered;
+}
+ 
+.slide_nav .prev_but{
+    width: 1215px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 50;
+    display: flex;
+    justify-content: space-between;
+}
+.prev_but button{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50%;
+    margin-top: -500px;
+    background-color: orangered;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.box3{
+    width: 100%;
+    height: 400px;
+    margin-top: -2px;
+    background-color: white;
+}
+.box3 .white_box{
+    width: 800px;
+    height: 400px;
+    margin-left: 250px;
+    text-align: center;
+    position: absolute;
+    
+}
+.white_box button{
+    margin-top: 40px;
+    margin-left: -5px;
+    background-color: orangered;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    padding: 10px;
+}
+.white_box p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 28px;
+    font-weight: 200;
+}
+.white_box h2{
+    margin-top: 60px;
+    margin-left: -10px;
+    font-size: 33px;
+    color: orangered;
+    font-weight: bold;
+}
+@media (max-width:765px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        list-style: none;
+    }
+    
+    .allegro_news{
+        width: 100%;
+        height: 360px;
+        margin-top: -837px;
+        position: relative;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* border: 1px solid white; */
+       align-items: center;
+    
+    }
+    .text_div{
+        height: 300px;
+        width: 550px;
+        margin-left: 90px;
+        margin-top: 90px;
+      /* border: 1px solid white; */
+    }
+    .text_div h3{
+        margin-left: 230px;
+        color: orangered;
+        font-size: 15px;
+        margin-top: -35px;
+    }
+    .text_div p{
+        width: 290px;
+        height: 200px;
+        margin-left: 130px;
+        margin-top: 10px;
+        font-family: 'Assistant', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+        word-spacing: 1px;
+       letter-spacing: 1px;
+        align-items: center;
+        font-weight: 100px;
+        color: white;
+        /* border: 1px solid white; */
+    }
+    .text_div button{
+        margin-left: 235px;
+        margin-top: -60px;
+        background-color: orangered;
+        color: white;
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+        padding: 8px;
+        list-style: none;
+        outline: none;
+        border: none;
+        position: absolute;
+    }
+    .allegro_news_1{
+        width: 100%;
+        height: 450px;
+        margin-top: -900px;
+        position: relative;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* border: 4px solid white; */
+       align-items: center;
+    }
+    .allegro_news_2{
+        width: 100%;
+        height: 410px;
+        margin-top: -900px;
+        position: relative;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* border: 1px solid white; */
+       align-items: center;
+    }
+    .text_div .button{
+        margin-top: 50px;
+    } 
+    .slide_nav{
+        width: 100%;
+        height:390px;
+        overflow: hidden;
+    }
+    .box2{
+        display: flex;
+        width: 100%;
+        height: 801px;
+    }
+    .box2 input{
+        display: none;
+    }
+    .slide_1{
+        /* width: 100%; */
+        transition: 2s;
+    }
+    .slide_1 .slide_2{
+        width: 100%;
+        height: 801px;
+    }
+    .manual{
+        position: absolute;
+        z-index: 100;
+        margin-top: 370px;
+        align-items: center;
+        width: 100%;
+        margin-left: -1px;
+        display: flex;
+        justify-content: center;
+    }
+    .manuals{
+        width: 10px;
+        border: 2px solid white;
+        padding: 3px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .manuals:not(:last-child){
+        margin-right: 10px;
+    }
+    .manuals:hover{
+        background-color: orangered;
+    }
+    #radio1:checked ~.slide_1 .slide_2{
+        margin-left: 0;
+        transition: 1s;
+    }
+    #radio2:checked ~.slide_1 .slide_2{
+        margin-left: -100%;
+        transition: 1s;
+    }
+    #radio3:checked ~.slide_1 .slide_2{
+        margin-left: -200%;
+        transition: 1s;
+    }
+    .prev_but button:hover{
+        background-color: whitesmoke;
+        color: orangered;
+    }
+     
+    .slide_nav .prev_but{
+        width: 100%;
+        margin-left: -1px;
+        position: relative;
+        z-index: 50;
+        display: flex;
+        justify-content: space-between;
+    }
+    .prev_but button{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 50%;
+        margin-top: -400px;
+        background-color: orangered;
+        color: white;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    
+    .box3{
+        width: 100%;
+        height: 200px;
+        margin-top: -2px;
+        background-color: white;
+    }
+    .box3 .white_box{
+        width: 600px;
+        height: 200px;
+        margin-left:70px;
+        text-align: center;
+        position: absolute;
+        /* border: 1px solid black; */
+    }
+    .white_box button{
+        margin-top: 10px;
+        margin-left: -5px;
+        background-color: orangered;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 25px;
+        width: 90px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .white_box p{
+        font-family: 'Assistant', sans-serif;
+        font-size: 15px;
+        margin-top: 5px;
+        line-height: 18px;
+        font-weight: 200;
+    }
+    .white_box h2{
+        margin-top: 10px;
+        margin-left: -10px;
+        font-size: 23px;
+        color: orangered;
+        font-weight: bold;
+    }
+
+}
+@media (max-width:315px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        list-style: none;
+    }
+    
+    .allegro_news{
+        width: 100%;
+        height: 750px;
+        margin-top: -837px;
+        position: relative;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* border: 1px solid white; */
+       align-items: center;
+    
+    }
+    .text_div{
+        height: 600px;
+        width: 265px;
+        margin-left: 20px;
+        margin-top: 83px;
+      /* border: 1px solid white; */
+    }
+    .text_div h3{
+        margin-left: 50px;
+        color: orangered;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .text_div p{
+        width: 280px;
+        height: 570px;
+        margin-left: -8px;
+        margin-top: 13px;
+        font-family: 'Assistant', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        line-height: 55px;
+        word-spacing: 1px;
+       letter-spacing: 1px;
+        align-items: center;
+        font-weight: 100px;
+        color: white;
+        /* border: 1px solid white; */
+    }
+    .text_div button{
+        margin-left: 95px;
+        margin-top: -60px;
+        background-color: orangered;
+        color: white;
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+        padding: 8px;
+        list-style: none;
+        outline: none;
+        border: none;
+        position: absolute;
+        z-index: 10;
+    }
+    .allegro_news_1{
+        width: 100%;
+        height: 800px;
+        margin-top: -900px;
+        position: relative;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* border: 4px solid white; */
+       align-items: center;
+    }
+    .allegro_news_2{
+        width: 100%;
+        height: 860px;
+        margin-top: -900px;
+        position: relative;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* border: 1px solid white; */
+       align-items: center;
+    }
+    .text_div .button{
+        margin-top: -55px;
+    } 
+    .slide_nav{
+        width: 100%;
+        height:800px;
+        overflow: hidden;
+    }
+    .box2{
+        display: flex;
+        width: 100%;
+        height: 801px;
+    }
+    .box2 input{
+        display: none;
+    }
+    .slide_1{
+        /* width: 100%; */
+        transition: 2s;
+    }
+    .slide_1 .slide_2{
+        width: 100%;
+        height: 801px;
+    }
+    .manual{
+        position: absolute;
+        z-index: 100;
+        margin-top: 775px;
+        align-items: center;
+        width: 100%;
+        margin-left: -1px;
+        display: flex;
+        justify-content: center;
+    }
+    .manuals{
+        width: 10px;
+        border: 2px solid white;
+        padding: 3px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .manuals:not(:last-child){
+        margin-right: 10px;
+    }
+    .manuals:hover{
+        background-color: orangered;
+    }
+    #radio1:checked ~.slide_1 .slide_2{
+        margin-left: 0;
+        transition: 1s;
+    }
+    #radio2:checked ~.slide_1 .slide_2{
+        margin-left: -100%;
+        transition: 1s;
+    }
+    #radio3:checked ~.slide_1 .slide_2{
+        margin-left: -200%;
+        transition: 1s;
+    }
+    .prev_but button:hover{
+        background-color: whitesmoke;
+        color: orangered;
+    }
+     
+    .slide_nav .prev_but{
+        width: 100%;
+        margin-left: -1px;
+        position: relative;
+        z-index: 50;
+        display: flex;
+        display: none;
+        justify-content: space-between;
+    }
+    .prev_but button{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 50%;
+        margin-top: -400px;
+        background-color: orangered;
+        color: white;
+        font-family: monospace;
+        font-weight: bold;
+        
+    }
+    #text_div_1 p{
+        height: 700px;
+        font-size: 50px;
+        line-height: 48px;
+    }
+    .box3{
+        width: 100%;
+        height: 800px;
+        margin-top: -2px;
+        background-color: white;
+    }
+    .box3 .white_box{
+        width: 275px;
+        height: 670px;
+        margin-left:15px;
+        text-align: center;
+        position: absolute;
+        /* border: 1px solid black; */
+        margin-top: 80px;
+    }
+    .white_box button{
+        margin-top: 50px;
+        margin-left: -5px;
+        background-color: orangered;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        padding: 7px;
+    }
+    .white_box p{
+        font-family: 'Assistant', sans-serif;
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 23px;
+        font-weight: 300;
+        text-align: center;
+        color: black;
+    }
+    .white_box h2{
+        margin-top: 50px;
+        margin-left: -10px;
+        font-size: 29px;
+        color: orangered;
+        font-weight: bold;
+    }
+
+
+}
